@@ -11,8 +11,8 @@
   "styles": ["styles/sheet.css"],
   "languages": [{ "lang": "es", "path": "lang/es.json" }],
   "systems": ["dnd5e"],
-  "manifest": "https://github.com/tuusuario/jojo-character-sheet/releases/latest/download/module.json",
-  "download": "https://github.com/tuusuario/jojo-character-sheet/releases/latest/download/module.zip"
+  "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
+  "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip"
 }
 
   
