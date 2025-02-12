@@ -1,18 +1,19 @@
 {
-  "id": "jojo-character-sheet",
-  "name": "jojo-character-sheet",
-  "title": "JoJo Character Sheet (D&D 5e)",
-  "description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
-  "version": "1.0.0",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
-  "author": "Santiago Villaverde",
-  "esModules": ["scripts/jojo-sheet.js"],
-  "styles": ["styles/sheet.css"],
-  "languages": [{ "lang": "es", "path": "lang/es.json" }],
-  "systems": ["dnd5e"],
-  "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
-  "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip"
+  
+    "id": "jojo-character-sheet",
+    "name": "jojo-character-sheet",
+    "title": "JoJo Character Sheet (D&D 5e)",
+    "description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
+    "version": "1.0.0",
+    "minimumCoreVersion": "11",
+    "compatibleCoreVersion": "11",
+    "author": "Santiago Villaverde",
+    "systems": ["dnd5e"],
+    "esModules": ["scripts/jojo-sheet.js"],
+    "styles": ["styles/sheet.css"],
+    "languages": [{ "lang": "es", "path": "lang/es.json" }],
+    "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
+    "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip"
 }
 
   
