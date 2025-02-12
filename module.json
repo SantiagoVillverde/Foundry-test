@@ -1,40 +1,48 @@
 {
-	"name": "jojo-character-sheet",
-	"title": "JoJo Character Sheet (D&D 5e)",
-	"description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
-	"system": ["dnd5e"],
-	"version": "1.0.0",
-	"author": "Santiago Villaverde",
-	"authors": [
-		{
-			"name": "Santiago Villaverde",
-			"url": "https://github.com/SantiagoVillverde"
-		}
-	],
-	"dependencies": [],
-	"esmodules": [
-		"scripts/jojo-sheet.js"
-	],
-	"styles": [
-		"styles/sheet.css"
-	],
-	"languages": [
-		{
-			"lang": "es",
-			"name": "Español",
-			"path": "lang/es.json"
-		}
-	],
-	"minimumCoreVersion": "9",
-	"compatibleCoreVersion": "11",
-	"minimumSystemVersion": "1.4.0",
+  "id": "jojo-character-sheet",
+  "name": "JoJo Character Sheet",
+  "type": "module",
+  "version": "1.0.0",
+  "title": "JoJo Character Sheet (D&D 5e)",
+  "description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
+  "authors": [
+    {
+      "name": "Santiago Villaverde",
+      "email": "tucorreo@email.com",
+      "url": "https://github.com/TuUsuario",
+      "discord": "TuDiscord#0000"
+    }
+  ],
+  "keywords": ["dnd5e", "jojo", "character sheet"],
+  "system": ["dnd5e"],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11.x"
+  },
+  "esmodules": ["scripts/jojo-sheet.js"],
+  "styles": ["styles/sheet.css"],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/TuUsuario/jojo-character-sheet/main/readme-img/cover.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/TuUsuario/jojo-character-sheet/main/readme-img/screenshot1.png"
+    }
+  ],
+  "readme": "https://raw.githubusercontent.com/TuUsuario/jojo-character-sheet/main/README.md",
+  "license": "MIT",
   "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
-  "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip",
-	"url": "https://github.com/SantiagoVillverde/Foundry-test",
-	"flags": {
-		"allowBugReporter": true
-	},
-	"manifestPlusVersion": "1.0.0"
+  "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip"
 }
 
 
