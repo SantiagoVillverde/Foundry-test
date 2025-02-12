@@ -1,19 +1,42 @@
 {
-  
-    "id": "jojo-character-sheet",
-    "name": "jojo-character-sheet",
-    "title": "JoJo Character Sheet (D&D 5e)",
-    "description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
-    "version": "1.0.0",
-    "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
-    "author": "Santiago Villaverde",
-    "systems": ["dnd5e"],
-    "esModules": ["scripts/jojo-sheet.js"],
-    "styles": ["styles/sheet.css"],
-    "languages": [{ "lang": "es", "path": "lang/es.json" }],
-    "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
-    "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip"
+	"name": "jojo-character-sheet",
+	"title": "JoJo Character Sheet (D&D 5e)",
+	"description": "Una hoja de personaje personalizada para jugar D&D 5e con el sistema JoJo.",
+	"system": ["dnd5e"],
+	"version": "1.0.0",
+	"author": "Santiago Villaverde",
+	"authors": [
+		{
+			"name": "Santiago Villaverde",
+			"url": "https://github.com/SantiagoVillverde"
+		}
+	],
+	"dependencies": [],
+	"esmodules": [
+		"scripts/jojo-sheet.js"
+	],
+	"styles": [
+		"styles/sheet.css"
+	],
+	"languages": [
+		{
+			"lang": "es",
+			"name": "Español",
+			"path": "lang/es.json"
+		}
+	],
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "11",
+	"minimumSystemVersion": "1.4.0",
+  "manifest": "https://github.com/SantiagoVillverde/Foundry-test/blob/main/module.json",
+  "download": "https://github.com/SantiagoVillverde/Foundry-test/archive/refs/heads/main.zip",
+	"url": "https://github.com/SantiagoVillverde/Foundry-test",
+	"flags": {
+		"allowBugReporter": true
+	},
+	"manifestPlusVersion": "1.0.0"
 }
+
+
 
   
