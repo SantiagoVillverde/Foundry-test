@@ -1,0 +1,29 @@
+<form class="jojo-sheet">
+    <header>
+      <h1>{{actor.name}}</h1>
+      <p>{{actor.system.details.race}} - {{actor.system.details.alignment}}</p>
+    </header>
+  
+    <section class="stats">
+      <h2>Atributos</h2>
+      <div class="grid">
+        <div><label>Fuerza:</label> {{actor.system.abilities.str.value}}</div>
+        <div><label>Destreza:</label> {{actor.system.abilities.dex.value}}</div>
+        <div><label>Constitución:</label> {{actor.system.abilities.con.value}}</div>
+        <div><label>Inteligencia:</label> {{actor.system.abilities.int.value}}</div>
+        <div><label>Sabiduría:</label> {{actor.system.abilities.wis.value}}</div>
+        <div><label>Carisma:</label> {{actor.system.abilities.cha.value}}</div>
+      </div>
+    </section>
+  
+    <section class="jojo-specific">
+      <h2>JoJo Stats</h2>
+      <div class="grid">
+        <div><label>Ripple Points:</label> {{actor.system.attributes.ripplePoints}}</div>
+        <div><label>Spin DC:</label> {{actor.system.attributes.spinDC}}</div>
+        <div><label>Stand Name:</label> {{actor.system.attributes.standName}}</div>
+        <div><label>Stand Energy:</label> {{actor.system.attributes.standEnergy}}</div>
+      </div>
+    </section>
+  </form>
+  
